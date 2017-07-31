@@ -1,7 +1,6 @@
 base:
   '*':
     - basic-text
-    - removals
   'roles:docker':
     - match: grain
     - docker
@@ -9,6 +8,7 @@ base:
     - match: grain
     - versioning
     - create-dev-dirs
+    - virtualbox
   'roles:music':
     - match: grain
     - music
