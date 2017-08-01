@@ -12,3 +12,6 @@ base:
   'roles:music':
     - match: grain
     - music
+  'roles:latex':
+    - match: grain
+    - latex

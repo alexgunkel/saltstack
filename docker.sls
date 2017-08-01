@@ -15,3 +15,9 @@ Add directory:
       - user
       - group
       - mode
+
+Clone the jwilder nginx proxy:
+  git.latest:
+    - name: https://github.com/jwilder/nginx-proxy
+    - rev: master
+    - target: /srv/docker/jwilder/nginx-proxy

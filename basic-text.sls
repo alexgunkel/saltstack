@@ -3,6 +3,10 @@ basic editors:
     - pkgs:
       - vim
 
-Remove humbug:
+Remove other editors:
   pkg.removed:
-    - name: nano
+    - pkgs:
+      - nano
+      - gvim
+      - emacs
+      - atom4

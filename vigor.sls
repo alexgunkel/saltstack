@@ -1,2 +1,0 @@
-vigor:
-  pkg.removed
