@@ -1,8 +1,10 @@
-docker:
+install_docker_packages:
   pkg.installed:
     - pkgs:
       - docker
       - docker-compose
+
+Add directory
   file.directory:
     - name: /srv/docker
     - user: alexander
