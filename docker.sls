@@ -4,7 +4,7 @@ install_docker_packages:
       - docker
       - docker-compose
 
-Add directory
+Add directory:
   file.directory:
     - name: /srv/docker
     - user: alexander
