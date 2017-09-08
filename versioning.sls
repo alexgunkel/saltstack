@@ -4,5 +4,5 @@ Version management:
 
 /etc/gitconfig:
   file.managed:
-    - source: salt://git/gitconfig
+    - source: salt://resources/gitconfig
 

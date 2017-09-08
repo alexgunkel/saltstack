@@ -1,6 +1,7 @@
 base:
   '*':
     - basic-text
+    - bash
   'roles:docker':
     - match: grain
     - docker

@@ -1,0 +1,1 @@
+alias pw="pwgen -cny 32 1"
