@@ -9,7 +9,9 @@ base:
     - match: grain
     - versioning
     - create-dev-dirs
-    - virtualbox
+  'roles:programming':
+    - match: grain
+    - golang
   'roles:music':
     - match: grain
     - music
