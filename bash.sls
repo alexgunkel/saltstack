@@ -1,6 +1,8 @@
 Password-Generator:
   pkg.installed:
-    - name: pwgen
+    - pkgs:
+      - pwgen
+      - libxml2-utils
 
 /etc/bash_completion.d/00-aliases.sh:
   file.managed:
