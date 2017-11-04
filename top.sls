@@ -10,6 +10,7 @@ base:
     - match: grain
     - versioning
     - create-dev-dirs
+    - swagger
   'roles:programming':
     - match: grain
     - golang
