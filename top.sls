@@ -3,6 +3,7 @@ base:
     - basic-text
     - bash
     - graphics
+    - monitoring
   'roles:docker':
     - match: grain
     - docker
