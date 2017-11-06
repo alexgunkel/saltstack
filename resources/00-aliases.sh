@@ -6,7 +6,3 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
-
-function xmlbeautify() {
-	xmllint --format $1 --output $1
-}
