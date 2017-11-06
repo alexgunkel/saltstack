@@ -40,7 +40,7 @@ Create Go DIR:
   file.directory:
     - name: /srv/dev/go
     - makedirs: True
-    - dir_mode: 755
+    - dir_mode: 777
     - file_mode: 644
 
 Set global variables:
