@@ -17,6 +17,7 @@ Clone the Lite IDE:
     - target: /opt/go/liteide
   cmd.run:
     - name: cd /opt/go/liteide/build && ./update_pkg.sh 1>/dev/null && QTDIR=/usr ./build_linux.sh 1>/dev/null
+    - unless: test -f /usr/bin/liteide
 
 install:
   file.symlink:
