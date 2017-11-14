@@ -8,6 +8,7 @@ Usefull tools:
   pkg.installed:
     - pkgs:
       - tree
+      - net-tools
 
 /etc/bash_completion.d/00-aliases.sh:
   file.managed:
