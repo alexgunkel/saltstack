@@ -4,6 +4,12 @@ Password-Generator:
       - pwgen
       - libxml2-utils
 
+Usefull tools:
+  pkg.installed:
+    - pkgs:
+      - tree
+      - net-tools
+
 /etc/bash_completion.d/00-aliases.sh:
   file.managed:
     - source: salt://resources/00-aliases.sh

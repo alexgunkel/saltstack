@@ -5,6 +5,7 @@ base:
     - graphics
     - video
     - monitoring
+    - browsers
   'roles:docker':
     - match: grain
     - docker
@@ -13,6 +14,7 @@ base:
     - versioning
     - create-dev-dirs
     - swagger
+    - development
   'roles:programming':
     - match: grain
     - golang
