@@ -3,6 +3,7 @@ base:
     - basic-text
     - bash
     - graphics
+    - video
     - monitoring
     - browsers
   'roles:docker':
