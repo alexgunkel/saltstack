@@ -4,6 +4,7 @@ install_golang:
   pkg.installed:
     - pkgs:
       - golang
+      - golang-golang-x-tools
       - qt4-dev-tools
       - libqt4-dev
       - libqtcore4
