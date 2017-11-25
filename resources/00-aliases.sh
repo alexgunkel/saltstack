@@ -5,4 +5,5 @@ alias phpdepend='pdepend --summary-xml=./sum.xml --jdepend-chart=./jdepend.svg -
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+alias gogo='cd ${GOPATH}/src/github.com/alexgunkel'
 
