@@ -2,11 +2,11 @@ basic editors:
   pkg.installed:
     - pkgs:
       - vim
+      - vim-gnome
 
 Remove other editors:
   pkg.removed:
     - pkgs:
       - nano
-      - gvim
       - emacs
       - atom4
