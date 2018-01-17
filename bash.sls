@@ -9,6 +9,8 @@ Usefull tools:
     - pkgs:
       - tree
       - net-tools
+      - screen
+      - sysstat
 
 /etc/bash_completion.d/00-aliases.sh:
   file.managed:
