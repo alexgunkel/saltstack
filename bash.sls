@@ -11,6 +11,7 @@ Usefull tools:
       - net-tools
       - screen
       - sysstat
+      - cowsay
 
 /etc/bash_completion.d/00-aliases.sh:
   file.managed:
